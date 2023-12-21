@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flowersbybees/static/css/main.5d37bc72.css",
-    "main.js": "/flowersbybees/static/js/main.1504008c.js",
+    "main.js": "/flowersbybees/static/js/main.dc761c12.js",
     "static/js/787.f313084c.chunk.js": "/flowersbybees/static/js/787.f313084c.chunk.js",
     "static/media/imageedit_1_3656565639.png": "/flowersbybees/static/media/imageedit_1_3656565639.d51865c3d68efa55599d.png",
     "static/media/pexels-pixabay-56866.jpg": "/flowersbybees/static/media/pexels-pixabay-56866.3123569130d3ad26b64a.jpg",
@@ -10,11 +10,11 @@
     "static/media/purple-osteospermum-daisy-flower_1373-16.avif": "/flowersbybees/static/media/purple-osteospermum-daisy-flower_1373-16.325b81e69f921114e706.avif",
     "index.html": "/flowersbybees/index.html",
     "main.5d37bc72.css.map": "/flowersbybees/static/css/main.5d37bc72.css.map",
-    "main.1504008c.js.map": "/flowersbybees/static/js/main.1504008c.js.map",
+    "main.dc761c12.js.map": "/flowersbybees/static/js/main.dc761c12.js.map",
     "787.f313084c.chunk.js.map": "/flowersbybees/static/js/787.f313084c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d37bc72.css",
-    "static/js/main.1504008c.js"
+    "static/js/main.dc761c12.js"
   ]
 }
