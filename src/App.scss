@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  text-decoration: none;
+  list-style: none;
+  height: 4rem;
+  background-color: rgb(53, 51, 51);
+  width: 100%;
+
+  &__item {
+    margin: auto 2rem;
+  }
+
+  &__link {
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    width: 5rem;
+    background-color: purple;
+    &:visited {
+      color: white;
+    }
+  }
+  &__logo {
+    position:absolute;
+    z-index: 9999;
+    height: 4rem;
+  }
+}

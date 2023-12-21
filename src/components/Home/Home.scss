@@ -1,0 +1,65 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+html,
+body,
+main {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+main {
+  background-image: url("./../Home/imageedit_1_3656565639.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home {
+  &__image {
+    opacity: 80%;
+    border-radius: 2rem;
+    margin: auto 10rem;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 20rem;
+    margin: 4em auto;
+    padding: 1rem 4rem;
+    border-radius: .5rem;
+    border: solid;
+    color: white;
+    background-color: purple;
+    opacity: 90%;
+    border-color: purple;
+    box-shadow: 0.25rem 0.25rem 0.51rem;
+    &:visited {
+      color: white;
+    }
+  }
+  &__cards {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__card {
+    height: 25rem;
+  }
+  &__card-button {
+    position: absolute;
+    top: 22rem;
+    background-color: purple;
+  }
+
+  &__underline {
+    width: 30%;
+    margin: 2rem auto;
+    border: solid .25rem purple;
+  }
+}
+
+.btn-primary {
+  background-color: purple !important;
+}

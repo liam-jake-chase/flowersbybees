@@ -1,0 +1,47 @@
+html,
+body,
+main {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+main {
+  background-image: url("./../Home/imageedit_1_3656565639.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.shop {
+  &__header {
+    text-align: center;
+    margin: auto;
+  }
+  &__cards {
+    display: flex;
+    justify-content: space-evenly;
+   
+  }
+  &__cards-two {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+  }
+  &__card {
+    height: 25rem;
+   
+    
+  }
+  &__card-button {
+    position: absolute;
+    top: 22rem;
+    background-color: purple;
+  }
+
+  &__underline {
+    width: 30%;
+    margin: 2rem auto;
+    border: solid .25rem purple;
+  }
+}

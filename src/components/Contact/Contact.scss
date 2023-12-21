@@ -1,0 +1,44 @@
+html,
+body,
+main {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+main {
+  background-image: url("./../Home/imageedit_1_3656565639.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.contact {
+  &__underline {
+    width: 30%;
+    margin: 2rem auto;
+    border: solid 0.25rem purple;
+  }
+
+  &__header {
+    text-align: center;
+    margin: auto;
+  }
+  &__input {
+    width: 40rem;
+    margin: auto;
+    margin-top: 10rem;
+    
+  }
+
+  &__textarea {
+    width: 40rem;
+   
+  }
+  &__text {
+    text-align: center;
+    margin: auto;
+  }
+  
+  
+}
