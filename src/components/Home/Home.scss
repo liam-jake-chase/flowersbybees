@@ -1,3 +1,5 @@
+@import './../../partials/mixins';
+
 html,
 body,
 main {
@@ -18,6 +20,7 @@ main {
     opacity: 80%;
     border-radius: 2rem;
     margin: auto 10rem;
+   
   }
 
   &__button {
