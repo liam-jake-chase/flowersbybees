@@ -3,17 +3,22 @@ body,
 main {
   padding: 0;
   margin: 0;
-  overflow: hidden;
+  overflow-y: auto;
+  height: 150vh;
+
 }
 
 main {
   background-image: url("./../Home/imageedit_1_3656565639.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  
 }
 
 .shop {
+  overflow: auto;
+  
+
   &__header {
     text-align: center;
     margin: auto;
@@ -21,17 +26,15 @@ main {
   &__cards {
     display: flex;
     justify-content: space-evenly;
-   
   }
   &__cards-two {
     display: flex;
     justify-content: space-evenly;
     margin-top: 4rem;
+    margin-bottom: 10rem;
   }
   &__card {
     height: 25rem;
-   
-    
   }
   &__card-button {
     position: absolute;
@@ -42,6 +45,6 @@ main {
   &__underline {
     width: 30%;
     margin: 2rem auto;
-    border: solid .25rem purple;
+    border: solid 0.25rem purple;
   }
 }

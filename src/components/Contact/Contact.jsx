@@ -5,7 +5,6 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import InputGroup from "react-bootstrap/InputGroup";
 
 export default function Contact() {
   useEffect(() => {

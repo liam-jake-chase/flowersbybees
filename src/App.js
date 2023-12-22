@@ -5,12 +5,18 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Shop from "./components/Shop/Shop";
 import Contact from "./components/Contact/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useState, useEffect } from "react";
+import Nav from "react-bootstrap/Nav";
+import cartImage from "./assets/shopping-cart-1985.png";
 
 function App() {
+ 
+  
+
   return (
     <Router>
       <header>
-        <nav>
+        <Nav>
           <img
             className="navbar__logo d-flex justify-content-start"
             src={logo}
@@ -22,7 +28,7 @@ function App() {
               <Link
                 style={{ textDecoration: "none" }}
                 className="navbar__link"
-                to="/"
+                to="/flowersbybees"
               >
                 HOME
               </Link>
@@ -45,12 +51,17 @@ function App() {
                 CONTACT
               </Link>
             </li>
+            <li>
+              <Link to="/cart">
+                <img className="navbar__cart" src={cartImage} alt="cartImage" />{" "}
+              </Link>
+            </li>
           </ul>
-        </nav>
+        </Nav>
       </header>
 
       <Routes>
-        <Route index path="/" element={<Home />} />
+        <Route index path="/flowersbybees" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
